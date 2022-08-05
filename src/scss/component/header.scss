@@ -1,0 +1,16 @@
+.header{
+    .title-header{
+        p{
+            color: red;
+            &:hover{
+                color: blue;
+            }
+            &::after{
+                color: blue;
+            }
+        }
+    }
+    .menu-header {
+
+    }
+}
